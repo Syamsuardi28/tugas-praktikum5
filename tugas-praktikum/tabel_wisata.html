@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Objek Wisata Sulawesi Selatan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/praktikum4/css/style.css" />
+    <style>
+      .table-striped > tbody > tr:nth-of-type(odd) {
+        background-color: #f2f2f2;
+      }
+      .table-hover > tbody > tr:hover {
+        background-color: #e9ecef;
+      }
+      .table th,
+      .table td {
+        border-bottom: 1px solid #dee2e6;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Objek Wisata</header>
+    <div class="container">
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="tabel_makanan.html">Makanan Khas</a></li>
+            <li><a href="tabel_wisata.html">Objek Wisata</a></li>
+            <li><a href="#">Keluar</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <section class="content">
+        <h1>Daftar Objek Wisata Khas Sulawesi Selatan</h1>
+        <div class="add-button">
+          <button>Tambah</button>
+        </div>
+        <table
+          class="table table-bordered table-striped table-hover"
+          id="tourism-table"
+        >
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Objek Wisata</th>
+              <th>Gambar</th>
+              <th>Deskripsi</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Tana Toraja</td>
+              <td>
+                <img
+                  src="/praktikum4/assets/Toraja.png"
+                  alt="Tana Toraja"
+                  width="100"
+                />
+              </td>
+              <td>
+                Tana Toraja adalah sebuah kabupaten di Provinsi Sulawesi
+                Selatan, Indonesia, yang terkenal dengan budaya pemakaman kuno
+                dan unik.
+              </td>
+              <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Pantai Losari</td>
+              <td>
+                <img
+                  src="/praktikum4/assets/Pantai_losari.png"
+                  alt="Pantai Losari"
+                  width="100"
+                />
+              </td>
+              <td>
+                Pantai Losari adalah ikon Kota Makassar, Sulawesi Selatan, yang
+                terkenal dengan pemandangan matahari terbenamnya yang indah.
+              </td>
+              <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Bantimurung</td>
+              <td>
+                <img
+                  src="/praktikum4/assets/Bantimurung.png"
+                  alt="Bantimurung"
+                  width="100"
+                />
+              </td>
+              <td>
+                Bantimurung di Kabupaten Maros, Sulawesi Selatan, adalah sebuah
+                kawasan wisata alam yang terkenal dengan sebutan "Kerajaan
+                Kupu-Kupu".
+              </td>
+              <td>
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Hapus</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
